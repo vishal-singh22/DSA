@@ -6,7 +6,7 @@ class BankAccount:
     def __init__(self,acc_No,bal = 0):
         self.__acc_NO = acc_No
         self.__bal = bal
-        
+
     def deposit(self,amount):
         if amount > 0:    
             self.__bal += amount
